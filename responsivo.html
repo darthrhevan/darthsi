@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de HTML Responsivo</title>
+<style>
+  /* Estilos para tornar o layout responsivo */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .box {
+    width: 100%;
+    background-color: #30c07d;
+    border: 1px solid #ca3939;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 60%;
+    }
+
+    .box {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box">
+    <h2>FNAF</h2>
+    <p>A história completa de Five Nights at Freddy’s (FNAF) desperta a curiosidade dos jogadores desde o lançamento do primeiro game, em 2014. O jogo em si não explica muito sobre seu roteiro, o que deixou parte das interpretações por conta da imaginação das pessoas. Na internet, há diversas teorias, mitos e até especulações de que a história de FNAF é real. .</p>
+  </div>
+  
+  <div class="box">
+    <h2>Transformers</h2>
+    <p>Os transformers são robôs alienígenas fictícios no formato humanóide, de uma franquia da Hasbro, capazes de transformar seus corpos em objetos inócuos (metamorfos), como veículos.[1] Inicialmente lançado em 1984 como uma linha de brinquedos (bonecos).[1]
+
+        A franquia tornou um sucesso em todo o mundo. Para dar suporte a essa nova linha, foram encomendados uma série em quadrinhos da Marvel Comics e desenhos animados.[1][2] O sucesso levou a mais brinquedos e continuações, na mídia conta com séries como Cyberverse e Rescue Bots Academy,[3] as animações digitais Beast Wars, Beast Machines, e Transformers: Cybertron, os animês Robots in Disguise, Transformers: Armada e Energon, o primeiro longa metragem animado em 1986 e o primeiro filme live action (blockbuster) em 2007 produzido por Steven Spielberg.[1][4].</p>
+  </div>
+
+  <div class="box">
+    <h2>Godzilla</h2>
+    <p>O Godzilla foi criado em 1954, quase uma década depois do ataque que devastou Hiroshima e Nagasaki, em 1945. Assim, o monstro foi uma resposta dos japoneses à ameaça nuclear, tanto que o nome original do filme - Gojira - é a fusão das palavras japonesas que, traduzidas, significam gorila e baleia..</p>
+  </div>
+</div>
+
+</body>
+</html>
